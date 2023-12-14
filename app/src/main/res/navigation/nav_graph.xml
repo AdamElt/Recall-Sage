@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.mobileapp.recallsage.mainFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_creationFragment"
+            app:destination="@id/creationFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_allCardsFragment"
+            app:destination="@id/allCardsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_studyFragment"
+            app:destination="@id/studyFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allCardsFragment"
+        android:name="com.mobileapp.recallsage.AllCardsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_all_cards" />
+    <fragment
+        android:id="@+id/creationFragment"
+        android:name="com.mobileapp.recallsage.CreationFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_creation" >
+        <action
+            android:id="@+id/action_creationFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_creationFragment_to_mainFragment2"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studyFragment"
+        android:name="com.mobileapp.recallsage.StudyFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_study" >
+        <action
+            android:id="@+id/action_studyFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.mobileapp.recallsage.QuizFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quizFragment_to_gameOverFragment"
+            app:destination="@id/gameOverFragment" />
+        <argument
+            android:name="Score"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_quizFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameOverFragment"
+        android:name="com.mobileapp.recallsage.GameOverFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_game_over" >
+        <action
+            android:id="@+id/action_gameOverFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <argument android:name="score"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_gameOverFragment_to_studyFragment"
+            app:destination="@id/studyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.mobileapp.recallsage.aboutFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_about" />
+</navigation>

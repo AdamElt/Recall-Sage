@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">RECALL SAGE</string>
+    <string name="tittle">RECALL SAGE</string>
+    <string name="flashcard_creation">CREATE</string>
+    <string name="all_flashcards">FLASHCARDS</string>
+    <string name="study">STUDY</string>
+    <string name="quiz">QUIZ</string>
+    <string name="creationTittle">Create Flashcard</string>
+    <string name="finish">FINISH</string>
+    <string name="next">NEXT</string>
+    <string name="quesHint">Please enter your question here</string>
+    <string name="ansHInt">Please enter your answer here</string>
+    <string name="question">Question:</string>
+    <string name="answer">Answer:</string>
+    <string name="allCardsTItle">All CARDS</string>
+    <string name="studyAnswerHint">CLICK to see answer</string>
+    <string name="quizAnswer">Insert your answer here</string>
+    <string name="newQuiz">NEW QUIZ</string>
+    <string name="About">About</string>
+    <string name="Help">Help</string>
+    <string name="Home">Home</string>
+
+    <string name="about_mes">Your Flashcard Companion!!
+        \n\nWelcome to RecallSage, your go-to flashcard companion for efficient learning and knowledge retention! Designed to make studying a breeze, RecallSage empowers users to create, manage, and study flashcards effortlessly.
+        \n\n\nKey Features:
+        \n\nFlashcard Creation: Craft personalized flashcards with questions and answers tailored to your study needs.
+        \n\nIntuitive Study Sessions: Flip through your flashcards, quiz yourself, and reinforce your understanding with ease.
+        \n\nQuiz Mode: Challenge yourself with the Quiz mode, where RecallSage tests your knowledge and tracks your progress.
+        \n\nStudy Mode: Take advantage of Study mode to focus on individual flashcards.
+        \n\n Thank you for choosing RECALL SAGE!
+        \n\n\n
+</string>
+    <string name="drawer_description">RECALL SAGE</string>
+
+</resources>

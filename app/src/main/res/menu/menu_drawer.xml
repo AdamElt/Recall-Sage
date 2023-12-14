@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/About" />
+    <item
+        android:id="@+id/allFlashcards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/all_flashcards" />
+    <item
+        android:id="@+id/creationFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/flashcard_creation" />
+    <item
+        android:id="@+id/studyFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/study" />
+    <item
+        android:id="@+id/quizFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/quiz" />
+</menu>
